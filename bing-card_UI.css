@@ -1,42 +1,37 @@
-body,
-#b_results > li {
-    background: #fff;
-}
-/******************  Main Results ****************/
+@-moz-document domain("www.bing.com") {
+
+
 #b_content li {
     display: inline-block;
 }
 #b_results > li.b_algo {
-    padding-top: 20px !important;
-    box-shadow: 0px 3px 9px #b0b0b0;
-    width: 120%;
-    background: #fff;
+    padding-top: 30px !important;
+    box-shadow: 0px 3px 9px #000;
+    width: 100%;
+
 }
 
-/******************  Right side  context ****************/
 #b_context > li {
     position: relative !important;
-    left: 30% !important;
-    box-shadow: 1px 1px 10px #bfbfbf;
+    width:100% !important;
+    left: 25% !important;
+    box-shadow: 1px 1px 10px #000;
 }
-/******************  URL NAME ****************/
-.b_attribution > cite {
-    color: #216e8e !important;
+#b_header, .b_poleContent {
+     box-shadow: 0 4px 10px -2px #000;
 }
-/******************  Search Videos ****************/
-#b_results > li > #serpvidans {
-    width: 75%;
-}
-/******************  Search Image sliders ****************/
-#b_results > li.b_imgans {
-    width: 120%;
+li.b_richnews {
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
 }
 
-/******************  Search Focus top results ****************/
-#b_results > li.b_top {
-    width: 120%;
+li.b_ans {
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+.mf-item-cntr {
+    box-shadow: 0px 3px 9px #000;
 }
 
-.b_slidebar {
-    width: 40vw;
+
 }
